@@ -22,8 +22,8 @@ style="height: 100vh; width: 100vw; background-color: #f5f5f5; display: flex; fl
 		<h2><?php echo $_SESSION['name']; ?></h2>
 		<a href="./logout.php">Logout</a>
 		<br>
-		<?phpinfo()?>
-	<?php }else{ ?>
+		<?php phpinfo(); ?>
+	<?php }else{ ?> 
 		<h2>You are not logged in</h2>
 		<a href="../index.php">Login</a>
 	<?php } ?>
